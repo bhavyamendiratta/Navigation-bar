@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background:#8B008B
+  }
+    #bhavya a {
+    position: absolute;
+    left: -80px;
+    transition: 1s;
+    padding: 15px;
+    width: 100px;
+    text-decoration : none;
+    font-size: 20px;
+    color: 	#8B008B;
+    border-radius: 0 5px 5px 0;
+}
+
+#bhavya a:hover {
+    left: 0;
+}
+
+#aa {
+    top: 20px;
+    background-color: #DB7093;
+}
+
+#bb {
+    top: 80px;
+    background-color: #FF69B4;
+}
+
+#cc {
+    top: 140px;
+    background-color: #DDA0DD;
+}
+
+#dd {
+    top: 200px;
+    background-color: #FFB6C1;
+  }
+  #dictionary {
+  background-color:	#00BFFF;
+}
+</style>
+</head>
+<body>
+
+<div id="bhavya" >
+  <a href="" id="aa">Home</a>
+  <a href="" id="bb">News</a>
+  <a href="" id="cc">Contact</a>
+  <a href="" id="dd">About</a>
+</div>
+
+<div style="margin-left:130px" class="dictionary">
+  <center><h2>Dictionary</h2>
+    <form>Type the word<input type= text></form>
+    </center>
+</div>
+     
+</body>
+</html>
